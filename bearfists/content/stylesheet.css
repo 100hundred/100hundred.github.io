@@ -50,7 +50,6 @@ body {
     }
     .header_title {
         font-size: 150%;
-        margin-left: 8px;
     }
 }
 
@@ -77,6 +76,7 @@ body {
 
 .logo {
     max-height: 32px;
+    margin-right: 16px;
     float: left;
 }
 .hotline {
