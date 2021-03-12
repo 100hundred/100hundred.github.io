@@ -34,7 +34,6 @@ body {
     color: white;
     line-height: 0.7;
     opacity: 0.8;
-
 }
 .header_title_1 {
     font-size: 100%;
@@ -52,7 +51,7 @@ body {
     .header_title {
         top: 5%;
         font-size: 150%;
-        display: block;
+        clear: both;
     }
 }
 
