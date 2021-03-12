@@ -18,8 +18,14 @@ body {
 }
 
 /* header */
+@media only screen and (min-width: 960px) {
+    .header {
+           background-image: url('images/banner/bannerbig.jpg');
+    }
+}
+
 .header {
-    background-image: url('images/banner/banner.jpg');
+    background-image: url('images/banner/bannersmol.jpg');
     background-color: var(--main);
     background-attachment: fixed;
     background-position: center;
