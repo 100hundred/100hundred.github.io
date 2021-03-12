@@ -52,7 +52,7 @@ body {
     .header_title {
         top: 5%;
         font-size: 150%;
-        float: none;
+        display: block;
     }
 }
 
