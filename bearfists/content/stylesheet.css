@@ -32,13 +32,11 @@ body {
 }
 .header_title {
     color: white;
-    font-size: 200%;
     line-height: 0.7;
     opacity: 0.8;
 
     position: absolute;
     left: 10%;
-    top: 30%;
 }
 .header_title_1 {
     font-size: 100%;
@@ -53,11 +51,19 @@ body {
     .header {
         background-image: url('images/banner/bannersmol.jpg');
     }
+    .header_title {
+        top: 5%;
+        font-size: 150%;
+    }
 }
 
 @media only screen and (min-width: 960px) {
     .header {
            background-image: url('images/banner/bannerbig.jpg');
+    }
+    .header_title {
+        top: 30%;
+        font-size: 200%;
     }
     .header_title_1 {
         font-size: 200%;
