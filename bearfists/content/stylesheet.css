@@ -49,9 +49,7 @@ body {
         background-image:url('images/banner/bannersmol.jpg');
     }
     .header_title {
-        top: 5%;
         font-size: 150%;
-        clear: both;
     }
 }
 
