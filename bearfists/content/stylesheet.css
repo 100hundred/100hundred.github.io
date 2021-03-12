@@ -45,7 +45,7 @@ body {
     font-weight: 500;
 }
 
-@media only screen and (min-width: 960px) {
+@media only screen and (max-width: 960px) {
     .header {
         background-image:url('images/banner/bannersmol.jpg');
     }
