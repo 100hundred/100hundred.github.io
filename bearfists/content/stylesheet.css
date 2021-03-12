@@ -19,7 +19,6 @@ body {
 
 /* header */
 .header {
-    background-image: url('images/banner/bannersmol.jpg');
     background-color: var(--main);
     background-attachment: fixed;
     background-position: center;
@@ -48,6 +47,12 @@ body {
 .header_title_2 {
     font-size: 185%;
     font-weight: 500;
+}
+
+@media only screen and (min-width: 960px) {
+    .header {
+        background-image: url('images/banner/bannersmol.jpg');
+    }
 }
 
 @media only screen and (min-width: 960px) {
