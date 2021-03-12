@@ -76,6 +76,7 @@ body {
 
 .logo {
     max-height: 32px;
+    margin-right: 8px;
     float: left;
 }
 .hotline {
